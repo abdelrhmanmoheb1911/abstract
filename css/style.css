@@ -1,0 +1,317 @@
+/*Start Media Screen*/
+@media (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+  
+    .first-div{
+        width: 100%;
+        display: block;
+        display: flex;
+    }
+    .seconed-div{
+        display: none;
+    }
+    .first{
+        font-size: 1rem;
+    }
+    .seconed{
+        top: 0;
+        left: 100%;    
+    
+    }
+    .search-box--hero-unit #query{
+        max-width: 250px;
+        border-radius:30%;
+    }
+    .branch-1 img,
+    .branch-2 img,
+    .branch-3 img,
+    .branch-4 img,
+    .branch-5 img,
+    .branch-6 img {
+        max-height: 80px;
+        margin-right: 15px;
+        margin-top: 20px;
+    }
+    }
+/* End Media Screen*/
+/*ٍStart Global Rules*/
+
+body {
+    font-family: 'GT America Standard', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #191a1b;
+    background-color: #191a1b;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+    :root {
+    --main-section-padding: 50px
+}
+
+.container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/*End Global Rules*/
+
+.header {
+    color: white;
+    display: flex;
+    margin-top: 30px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;position: relative;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.first-div {
+    width: 50%;
+    left: 0%;
+    align-items: center;
+}
+
+.seconed-div {
+    width: 50%;
+    left: 70%;
+    align-items: center;
+}
+
+.first {
+    font-weight: 500;
+    font-size: 1.3em;
+    border-right: 3px solid white;
+    padding-right: 10px;
+}
+
+.first:hover {
+    color: rgba(255, 255, 255, 0.678);
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.second {
+    font-weight: 500;
+    font-size: 1.3em;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+.second:hover {
+    text-decoration: underline;
+}
+
+.third {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 400;
+    border: 2px solid white;
+    -o-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    padding: 10px 25px;
+    text-align: center;
+    font-family: "GT America Standard", arial;
+    cursor: pointer;
+    margin-left: 9rem;
+    line-height: 1.5rem;
+    height: 2rem;
+}
+
+.fourth {
+    background-color: #4C5FD5;
+    border-color: #4C5FD5;
+    padding: 13px 35px 13px 35px;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 1px solid #4C5Fd5;
+    border-radius: 8px;
+    margin-left: 1rem;
+
+}
+
+.fourth:hover {
+    color: black;
+    background-color: white;
+    border: white;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.landing {
+    background-color: #dadbf1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.landing h1 {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'GT America Standard', sans-serif;
+    letter-spacing: -4px;
+    margin: 0 0 1rem;
+    font-weight: 400;
+}
+
+.search-box--hero-unit {
+    margin-right: auto;
+    margin-left: auto;
+    width: 720px;
+    min-width: 500px;
+}
+
+.search-box--hero-unit #query {
+    padding: 1rem 1rem;
+    border-color: #000000;
+    -webkit-box-shadow: 0 9px 14px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 9px 14px 0 rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.landing input {
+    width: 100%;
+}
+
+.branches {
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.branches .container {
+    width: 80%;
+    max-width: 1600px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.branch-1,
+.branch-2,
+.branch-3,
+.branch-4,
+.branch-5,
+.branch-6 {
+    display: grid;
+    position: relative;
+    width: 40%;
+    grid-template-columns: 2;
+    min-height: 120px;
+    margin-bottom: 3rem;
+    padding-right: 30px;
+}
+
+.branch-1 img,
+.branch-2 img,
+.branch-3 img,
+.branch-4 img,
+.branch-5 img,
+.branch-6 img {
+    max-height: 120px;
+    margin-right: 30px;
+    display: grid;
+    margin-top: 50px;
+}
+
+.branch-1 h1,
+.branch-2 h1,
+.branch-3 h1,
+.branch-4 h1,
+.branch-5 h1,
+.branch-6 h1 {
+    font-size: 24px;
+}
+
+.branch-1 p,
+.branch-2 p,
+.branch-3 p,
+.branch-4 p,
+.branch-5 p,
+.branch-6 p {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.branch-1 a,
+.branch-2 a,
+.branch-3 a,
+.branch-4 a,
+.branch-5 a,
+.branch-6 a {
+    color: #4C5FD5;
+    text-decoration: none;
+}
+
+.branch-1 a:hover,
+.branch-2 a:hover,
+.branch-3 a:hover,
+.branch-4 a:hover,
+.branch-5 a:hover,
+.branch-6 a :hover {
+    color: rgba(25, 26, 27, 1);
+    text-decoration: underline;
+}
+/*start footer*/
+
+footer {
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__inner {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1900px;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.footer-column {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    .footer-title {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: bold;
+    }
+    .footer a {
+        color: white;
+        display: block;
+    }

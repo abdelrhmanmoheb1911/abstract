@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+.first-div{
+    width: 100%;
+    display: block;
+    position: absolute;
+}
+.seconed-div{
+    width: 100%;
+    position: absolute;
+}
+.seconed{
+    position: absolute;
+    right: 0;
+
+}
+
+
+}
